@@ -1,0 +1,37 @@
+<?php
+return [
+    'tax_payers'=>'Contribuables',
+    'tax_payer'=>'Contribuable',
+    'first_name'=>'Prénom',
+    'last_name'=>'Nom',
+    'address'=>'Adresse',
+    'phone'=>'Téléphone',
+    'identification'=>'Identification',
+    'number'=>'Numéro',
+    'date'=>'Date',
+    'name'=>'Libellé',
+    'depositor'=>'Dépositeur',
+    'vehicule_type'=>'Type de vehicule',
+    'auction'=>'Enchère',
+    'daily_rate'=>'Tarif Journalier',
+    'licence_plate'=>'Immatriculation',
+    'payment_receipt_number'=>'N° de paiement',
+    'payment_date'=>'Date de paiement',
+    'entry_date'=>'Date d\'entrée',
+    'leave_date'=>'Date de sortie',
+    'auction_date'=>"Date d'enchère",
+    'status'=>"Statut",
+    'condition'=>'Condition',
+    'impounded_vehicule'=>[
+        'label'=>'Véhicule mis en fourrière',
+        'information'=>'Information',
+        'dates'=>'Dates',
+        'status_and_relations'=>'Status et relations'
+    ],
+    'status_value'=>[
+        'IMPOUNDED_VEHICULE' => 'Mis en fourrière',
+        'EXITED_VEHICULE' => 'Libéré',
+        'AUCTION_VEHICULE' => 'Aux enchères',
+        'PENDING_EXIT_VEHICULE' => 'En attente de sortie',
+    ],
+];
